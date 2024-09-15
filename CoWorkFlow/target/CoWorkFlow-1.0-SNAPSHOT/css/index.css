@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F9FF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #C3DEFF;
+    color: #0056b3;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;  /* Espacio vertical entre los ítems de la lista */
+    font-size: 16px; /* Tamaño de letra más pequeño */
+ 
+}
+
+ul li i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+.button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button.ver-reservas {
+    background-color: #28a745; /* Verde */
+}
+
+.button.nueva-reserva {
+    background-color: #007BFF; /* Azul */
+}
+
+.button:hover {
+    opacity: 0.9;
+}

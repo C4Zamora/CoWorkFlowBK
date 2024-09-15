@@ -1,0 +1,73 @@
+/* Reset básico para los márgenes y paddings de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Añadir margen para los div que contengan secciones o bloques */
+div {
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Separar la tabla del encabezado */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+/* Estilo para hover en botones */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilo de título y secciones generales */
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Alinear los formularios de actualizar y eliminar en la misma línea */
+form {
+    display: inline;
+}
+
+/* Añadir espaciado general a todos los div contenedores */
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* Limitar el ancho máximo de la página */
+}
+
+/* Añadir un pequeño margen superior a los botones */
+td form {
+    margin-right: 10px; /* Separar los botones ligeramente */
+}
